@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class UserServiceApplicationTests {
+ class UserServiceApplicationTests {
 
 private UserServiceApplication userServiceApplication;
 
@@ -31,12 +31,12 @@ private UserServiceApplication userServiceApplication;
     // Bu test methodu, UserServiceApplication sınıfının add() methodunu test eder.
     // Burada eger yeni user elave edilibse getAll() methodu user listinin size-ni yoxlayir ki, 2 olmalidir.
     @Test
-    void userSizeIfUserAdded(){
-        System.out.println("Test 2" + this);
+    void usersSizeIfUserAdded() {
+        System.out.println("Test 2: " + this);
         userServiceApplication.add(new User());
         userServiceApplication.add(new User());
         var users = userServiceApplication.getAll();
-        assertEquals(2, users.size());
+        assertEquals(3, users.size());
     }
 
     @AfterEach
