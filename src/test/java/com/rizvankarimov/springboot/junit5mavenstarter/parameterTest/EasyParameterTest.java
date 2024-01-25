@@ -1,4 +1,4 @@
-package com.rizvankarimov.springboot.junit5mavenstarter;
+package com.rizvankarimov.springboot.junit5mavenstarter.parameterTest;
 
 import com.rizvankarimov.springboot.junit5mavenstarter.exemple.calculator.Calculator;
 import org.junit.jupiter.params.ParameterizedTest;
