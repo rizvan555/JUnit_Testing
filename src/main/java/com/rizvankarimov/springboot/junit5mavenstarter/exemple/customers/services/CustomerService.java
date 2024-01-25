@@ -1,7 +1,7 @@
-package com.rizvankarimov.springboot.junit5mavenstarter.exemple.Customers.services;
+package com.rizvankarimov.springboot.junit5mavenstarter.exemple.customers.services;
 
-import com.rizvankarimov.springboot.junit5mavenstarter.exemple.Customers.Customer;
-import com.rizvankarimov.springboot.junit5mavenstarter.exemple.Customers.CustomerRepository;
+import com.rizvankarimov.springboot.junit5mavenstarter.exemple.customers.dto.Customer;
+import com.rizvankarimov.springboot.junit5mavenstarter.exemple.customers.repositories.CustomerRepository;
 
 public class CustomerService {
     private CustomerRepository customerRepository;
@@ -13,6 +13,9 @@ public class CustomerService {
         infoService.sendNewCustomAddMail(customer);
     }
 
+    public void deleteCustomer(Integer customerId){
+        customerRepository.deleteYourCustomer(customerId);
+    }
 
 
     // Burada Setter Injection istifade edib "customerRepository" ve "infoService" obyektlerini set edirik.

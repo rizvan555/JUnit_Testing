@@ -1,4 +1,4 @@
-package com.rizvankarimov.springboot.junit5mavenstarter;
+package com.rizvankarimov.springboot.junit5mavenstarter.launcher;
 
 import org.junit.platform.engine.discovery.DiscoverySelectors;
 import org.junit.platform.launcher.LauncherDiscoveryRequest;

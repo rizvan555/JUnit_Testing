@@ -1,4 +1,4 @@
-package com.rizvankarimov.springboot.junit5mavenstarter.exemple.Calculator;
+package com.rizvankarimov.springboot.junit5mavenstarter.exemple.calculator;
 
 public class Calculator {
     public int add(int count1, int count2){

@@ -1,6 +1,6 @@
-package com.rizvankarimov.springboot.junit5mavenstarter;
+package com.rizvankarimov.springboot.junit5mavenstarter.calculatorTest;
 
-import com.rizvankarimov.springboot.junit5mavenstarter.exemple.Calculator.Calculator;
+import com.rizvankarimov.springboot.junit5mavenstarter.exemple.calculator.Calculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
