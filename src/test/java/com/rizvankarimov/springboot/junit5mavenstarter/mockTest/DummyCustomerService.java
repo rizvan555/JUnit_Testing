@@ -6,4 +6,6 @@ public interface DummyCustomerService {
     public void removeCustomer(String userName);
 
     public void updateCustomer(String userName);
+
+    public String getCustomer(String userName);
 }
