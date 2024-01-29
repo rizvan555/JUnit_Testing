@@ -62,7 +62,7 @@ public class BehaviorTest {
     void norMoreAnotherTest() {
         DummyCustomerService customerService = mock(DummyCustomerService.class);
         customerService.addCustomer("Rizvan");
-        customerService.addCustomer("Fateh");
+        customerService.removeCustomer("Fateh");
 
         verify(customerService).addCustomer("Rizvan");
         verify(customerService).removeCustomer("Fateh");
